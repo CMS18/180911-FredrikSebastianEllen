@@ -33,7 +33,7 @@ namespace FredrikSebastianEllen
             Console.Write($"{name} ville äta någonting... men vad? ");
             string tredjeMeddelande = Console.ReadLine();
 
-            Console.WriteLine($"eftersom att han är { age } år gammal, så var han tvungen att äta {tredjeMeddelande}... mm vad gott! sa {name}");
+            Console.WriteLine($"eftersom att {name} är { age } år gammal, så var han tvungen att äta {tredjeMeddelande}... mm vad gott! sa {name}");
 
             string fjärdeMeddelande = "Efter att ha räknat " + int.MaxValue + " röster. Skrek kaffetarmen efter påfyllning.";
             Console.Write(fjärdeMeddelande);
