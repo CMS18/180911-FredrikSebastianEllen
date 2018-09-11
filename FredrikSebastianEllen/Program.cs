@@ -35,6 +35,11 @@ namespace FredrikSebastianEllen
             Console.Write("Fortsätt storyn...");
             string tredjeMeddelande = Console.ReadLine();
 
+            
+
+            string fjärdeMeddelande = "Efter att ha räknat " + int.MaxValue + " röster. Skrek kaffetarmen efter påfyllning.";
+            Console.Write(fjärdeMeddelande);
+
  
 
             // Lägg till variablerna i WriteLine.
