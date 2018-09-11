@@ -10,10 +10,15 @@ namespace FredrikSebastianEllen
     {
         static void Main(string[] args)
         {
-            string förstaMeddelande = "En liten rolig filur som hette ";
+            Console.Write("Vad heter du? ");
+            var name = Console.ReadLine();
+
+            Console.Write("Hur gammal är du? ");
+            var age = int.Parse(Console.ReadLine());
+
+            string förstaMeddelande = "En liten rolig filur som hette " + name + " som var " + age + " år gammal gick ut en vacker dag...";
 
             Console.WriteLine(förstaMeddelande);
-
             Console.Write("Fortsätt storyn...");
             string användarSvar = Console.ReadLine();
                     
@@ -21,7 +26,6 @@ namespace FredrikSebastianEllen
 
             string andraMeddelande = "Fredrik. Han var C#-lärare och älskade kaffe. Det han helst gör på sin fritid ";
 
-            Console.WriteLine(andraMeddelande);
 
             string tredjeMeddelande = "är att läsa och köra bil. " +
                                         "Just nu är han lite trött eftersom han jobbade hela valnatten...";
