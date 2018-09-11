@@ -22,18 +22,13 @@ namespace FredrikSebastianEllen
             string förstaMeddelande = "En liten rolig filur som hette " + name + " som var " + age + " år gammal gick ut en " +weather + " dag för att...";
 
             Console.WriteLine(förstaMeddelande);
-            Console.Write("Fortsätt storyn...");
+            Console.Write("Vad ville " + name + " göra sen?");
             string användarSvar = Console.ReadLine();
-                    
-            // Fortsätt historien här under
 
-            string andraMeddelande = "Fredrik. Han var C#-lärare och älskade kaffe. Det han helst gör på sin fritid ";
+            Console.WriteLine(name + " " + användarSvar + " och dansade tango iklädd en björndräkt.");
 
 
-            string tredjeMeddelande = "är att läsa och köra bil. " +
-                                        "Just nu är han lite trött eftersom han jobbade hela valnatten...";
-
-            Console.WriteLine(tredjeMeddelande);
+ 
 
             // Lägg till variablerna i WriteLine.
 
