@@ -16,7 +16,10 @@ namespace FredrikSebastianEllen
             Console.Write("Hur gammal är du? ");
             var age = int.Parse(Console.ReadLine());
 
-            string förstaMeddelande = "En liten rolig filur som hette " + name + " som var " + age + " år gammal gick ut en vacker dag...";
+            Console.Write("Beskriv vädret ");
+            var weather = Console.ReadLine();
+
+            string förstaMeddelande = "En liten rolig filur som hette " + name + " som var " + age + " år gammal gick ut en" +weather + "dag för att...";
 
             Console.WriteLine(förstaMeddelande);
 
