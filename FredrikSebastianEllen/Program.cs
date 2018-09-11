@@ -10,14 +10,29 @@ namespace FredrikSebastianEllen
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
+            string förstaMeddelande = "En liten rolig filur som hette ";
+
+            Console.WriteLine(förstaMeddelande);
+
+            Console.Write("Fortsätt storyn...");
+            string användarSvar = Console.ReadLine();
 
 
-            Console.ReadKey();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+
+
+            // Fortsätt historien här under
+
+            string andraMeddelande = "Fredrik. Han var C#-lärare och älskade kaffe. Det han helst gör på sin fritid ";
+
+            Console.WriteLine(andraMeddelande);
+
+            // Lägg till variablerna i WriteLine.
+
+
+
+
+            Console.ReadLine();
         }
     }
 }
