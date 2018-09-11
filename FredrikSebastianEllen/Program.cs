@@ -30,7 +30,7 @@ namespace FredrikSebastianEllen
             string andraMeddelande = $"Just nu är {name} lite trött eftersom {name} jobbade hela valnatten...";
             Console.WriteLine(andraMeddelande);
             Console.WriteLine("Efter att han tog en snabb tupplur så blev " + name + " uttråkad.. ");
-            Console.Write($"{name} ville äta någonting...");
+            Console.Write($"{name} ville äta någonting... men vad? ");
             string tredjeMeddelande = Console.ReadLine();
 
             Console.WriteLine($"eftersom att han är { age } år gammal, så var han tvungen att äta {tredjeMeddelande}... mm vad gott! sa {name}");
@@ -54,9 +54,12 @@ namespace FredrikSebastianEllen
             string fjärdeMeddelande = "Efter att ha räknat " + int.MaxValue + " röster. Skrek kaffetarmen efter påfyllning.";
             Console.Write(fjärdeMeddelande);
 
- 
+            Console.WriteLine($"{name} fick lite ont i magen efter det starka kaffet, han behövde plötsligt springa till toaletten!");
+            Console.WriteLine($"{name} hann precis klart i tid, {name} är ju {age} år gammal... men {name} fick då plötsligt syn på en");
 
-            // Lägg till variablerna i WriteLine.
+            string femteMeddelande = Console.ReadLine();
+            
+
 
 
 
