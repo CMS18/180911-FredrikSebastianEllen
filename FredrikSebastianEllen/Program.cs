@@ -25,7 +25,7 @@ namespace FredrikSebastianEllen
             Console.Write("Vad ville " + name + " göra sen?");
             string användarSvar = Console.ReadLine();
 
-            Console.WriteLine(name + " " + användarSvar + " och dansade tango iklädd en björndräkt.");
+            Console.WriteLine(name + " ville " + användarSvar + " och gick sedan för att dansa tango iklädd en björndräkt.");
 
             
 
