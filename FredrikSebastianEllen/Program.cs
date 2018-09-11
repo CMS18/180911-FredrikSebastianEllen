@@ -19,11 +19,13 @@ namespace FredrikSebastianEllen
             Console.Write("Beskriv vädret ");
             var weather = Console.ReadLine();
 
-            string förstaMeddelande = "En liten rolig filur som hette " + name + " som var " + age + " år gammal gick ut en " +weather + " dag för att...";
+            string förstaMeddelande = "En liten rolig filur som hette " + name + " som var " + age + " år gammal gick ut en " + weather + " dag för att...";
 
             Console.WriteLine(förstaMeddelande);
-            Console.Write("Fortsätt storyn...");
+            Console.Write("Vad ville " + name + " göra sen?");
             string användarSvar = Console.ReadLine();
+
+            Console.WriteLine(name + " ville " + användarSvar + " och gick sedan för att dansa tango iklädd en björndräkt.");
 
             Console.Write("När det är fredag är det dags för (skriv något): ");
             string weekend = Console.ReadLine();
@@ -32,13 +34,18 @@ namespace FredrikSebastianEllen
 
             // Fortsätt historien här under
 
+            
+
 
 
             string andraMeddelande = "Fredrik. Han var C#-lärare och älskade kaffe. Det han helst gör på sin fritid ";
 
+            string andraMeddelande = "Just nu är hen lite trött eftersom han jobbade hela valnatten...";
+            Console.WriteLine(andraMeddelande);
+            Console.Write("Fortsätt storyn...");
+            string tredjeMeddelande = Console.ReadLine();
 
-            string tredjeMeddelande = "är att läsa och köra bil. " +
-                                        "Just nu är han lite trött eftersom han jobbade hela valnatten...";
+ 
 
             // Lägg till variablerna i WriteLine.
 
