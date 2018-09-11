@@ -35,6 +35,22 @@ namespace FredrikSebastianEllen
 
             Console.WriteLine($"eftersom att {name} är { age } år gammal, så var han tvungen att äta {tredjeMeddelande}... mm vad gott! sa {name}");
 
+
+            Console.Write("När det är fredag är det dags för (skriv något): ");
+            string weekend = Console.ReadLine();
+
+            Console.Write("Efter skolan bestämde jag mig för att " + weekend+ ".");
+
+            // Fortsätt historien här under
+
+            
+
+         
+            Console.Write("Fortsätt storyn...");
+            string tredjeMeddelande = Console.ReadLine();
+            
+
+
             string fjärdeMeddelande = "Efter att ha räknat " + int.MaxValue + " röster. Skrek kaffetarmen efter påfyllning.";
             Console.Write(fjärdeMeddelande);
 
