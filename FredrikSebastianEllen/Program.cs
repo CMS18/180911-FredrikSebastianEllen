@@ -18,12 +18,19 @@ namespace FredrikSebastianEllen
             string användarSvar = Console.ReadLine();
 
 
+
+
+
             // Fortsätt historien här under
+
+            string andraMeddelande = "Fredrik. Han var C#-lärare och älskade kaffe. Det han helst gör på sin fritid ";
+
+            Console.WriteLine(andraMeddelande);
 
             // Lägg till variablerna i WriteLine.
 
 
-            Console.WriteLine($"{förstaMeddelande} {användarSvar}");
+
 
             Console.ReadLine();
         }
